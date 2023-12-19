@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutSub.cshtml";
+}
+@using project.Models
+@{
+    List<int> list_wish_list = ViewBag.list_wish_list as List<int>;
+}
+@functions {
+    public MyDbContext db = new MyDbContext();
+    public ItemProduct GetProduct(int id)
+    {
+        ItemProduct record = db.Products.Where(item => item.Id == id).FirstOrDefault();
+        return record;
+    }
+}
+@if (list_wish_list != null)
+{
+    <div class="container">
+
+        <div class=" main-content-area" style="margin-top:15px; min-height: 700px;">
+            <div class="wrap-iten-in-cart">
+                <h3 style="padding-bottom: 20px;" class="box-title">Wishlist</h3>
+                <ul class="products-cart">
+                    <li class="pr-cart-item" style="display: flex !important;">
+                        <div class="product-image"></div>
+                        <div class="product-name" style="padding-left: 95px;">
+                            <p class="Total price" style="font-weight: bold; font-size:14px;padding-left: 282px;">Name</p>
+                        </div>
+                        <div class="price-field produtc-price" style="font-weight: bold; font-size:14px;margin-left: 250px;">
+                            <p class="price">Price</p>
+                            </div>
+                        <div>
+                        </div>
+                    </li>
+                    @foreach (var item in list_wish_list)
+                    {
+                        var product = GetProduct(item);
+                        <li class="pr-cart-item" style="display: flex !important;position: relative;margin-bottom: 30px;">
+                            <div class="product-image">
+                                <figure><img style="width:80px" src="~/Upload/Products/@product.Photo" alt=""></figure>
+                            </div>
+                            <div class="product-name" style="padding-left: 234px;padding-top: 30px;font-size: 20px;">
+                                <a style="color:black" class="link-to-product" href="/Products/Detail/@product.Id">@product.Name</a>
+                            </div>
+                            <div class="price-field produtc-price" style="padding-left: 76px;padding-top: 30px;font-size: 20px;">
+                                <p class="price">$@string.Format("{0:#,#.}",(product.Price - (product.Price * product.Discount)/100))</p>
+                            </div>
+                            <div style="position: absolute;top: 28px;left: 780px;;">
+                                <a href="/WishList/Remove/@product.Id" class="btn btn-delete" title="Remove">
+                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+
+        </div><!--end main content area-->
+    </div>
+}
+else
+{
+    <h2 style="text-align:center">Chưa có sản phẩm yêu thích</h2>
+}

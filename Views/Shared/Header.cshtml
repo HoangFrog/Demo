@@ -1,0 +1,193 @@
+﻿@using project.Models
+<header id="header">
+	<!--header-->
+	<div class="header_top">
+		<!--header_top-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="contactinfo">
+						<ul class="nav nav-pills">
+							<li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="social-icons pull-right">
+						<ul class="nav navbar-nav">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/header_top-->
+
+	<div class="header-middle">
+		<!--header-middle-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="logo pull-left">
+						<a href="/Home"><img src="~/images/home/logo.png" alt="" /></a>
+					</div>
+					@*<div class="btn-group pull-right">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+								USA
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Canada</a></li>
+								<li><a href="#">UK</a></li>
+							</ul>
+						</div>
+
+						<div class="btn-group">
+							<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+								DOLLAR
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Canadian Dollar</a></li>
+								<li><a href="#">Pound</a></li>
+							</ul>
+						</div>
+					</div>*@
+				</div>
+				<div class="col-sm-8">
+					<div class="shop-menu pull-right">
+						<ul class="nav navbar-nav">
+							@*kiểm tra người dùng đã đăng nhập chưa*@
+							@if (!String.IsNullOrEmpty(Context.Session.GetString("customer_email")))
+							{
+								<li class="menu-item"><a href="#">Xin chào @Context.Session.GetString("customer_email")</a></li>
+								<li class="menu-item"><a href="/Account/Orders">My Shopping Cart</a></li>
+								<li class="menu-item"><a title="" href="/WishList">WishList</a></li>
+								<li class="menu-item"><a title="Register or Login" href="/Account/Logout">Logout</a></li>
+							}
+							else
+							{
+								<li class="menu-item"><a title="Register or Login" href="/Account/Login">Login</a></li>
+								<li class="menu-item"><a title="Register or Login" href="/Account/Register">Register</a></li>
+							}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/header-middle-->
+
+	<div class="header-bottom">
+		<!--header-bottom-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="mainmenu pull-left">
+						<ul class="nav navbar-nav collapse navbar-collapse">
+							<li><a href="/Home" class="active">Home</a></li>
+							<li class="dropdown">
+								<a href="/Products/Category">Shop<i ></i></a>
+								@*<ul role="menu" class="sub-menu">
+									<li><a href="shop.html">Products</a></li>
+									<li><a href="product-details.html">Product Details</a></li>
+									<li><a href="checkout.html">Checkout</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="login.html">Login</a></li>
+								</ul>*@
+							</li>
+						
+							<li><a href="/Cart">Cart</a></li>
+							<li><a href="/Contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="search_box pull-right" >
+						<input type="text" onkeyup="search();" placeholder="Search" name="search" id="key" style="background-image:none;    padding: 21px 15px;margin-right: -3px;width: 215px;border: 1px solid #333;background: white;font-size: 12px;" />
+						<button style="    padding: 12px 16px;color: white;background: #FE980F;border: 1px solid #333;margin-left: -1px;" type="button" onclick="location.href='/Products/SearchName?key='+document.getElementById('key').value;">
+							<i class="fa fa-search"></i>
+						</button>
+						<div id="smart-search" >
+							<ul>
+								@*<li><a href=""><img src="http://localhost:5165/Upload/Products/133432252977829485_iphone-12-tim-1-600x600.jpg" />product 1</a></li>
+								<li><a href=""><img src="http://localhost:5165/Upload/Products/133432252977829485_iphone-12-tim-1-600x600.jpg" />product 1</a></li>
+								<li><a href=""><img src="http://localhost:5165/Upload/Products/133432252977829485_iphone-12-tim-1-600x600.jpg" />product 1</a></li>
+*@
+							</ul>
+						</div>
+					</div>
+				</div>
+				<style>
+					@* đặt cha làm điểm tựa để id="smart-search" căn theo*@
+					.search_box{position:relative;}
+					/*con căn theo điểm tựa bên ngoài*/
+					#smart-search {
+							position: absolute;
+							width: 450px;
+							background: white;
+							z-index: 100;
+							top: 50px;
+							display: none;
+							height: 200px;
+							overflow: scroll;
+						}
+
+							#smart-search img {
+								width: 70px;
+								margin-right: 5px;
+							}
+
+							#smart-search ul {
+								padding: 0px;
+								margin: 0px;
+								list-style: none;
+								text-align: left;
+							}
+
+							#smart-search ul li {
+								border-bottom: 1px solid #dddddd;
+							}
+				</style>
+				<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+				<script>
+					//phải kiểm xem jquery đã load được vào trang chưa, nếu chưa thì phải load jquery (vì sử dụng jquery ajax)
+					//$(document).ready(function(){ alert('ok'); });
+					function search()
+					{
+						var key = document.getElementById('key').value;
+						if(key != '')
+						{
+							// hien thi id=smart-search
+							document.getElementById("smart-search").setAttribute("style", "display:block;");
+							//sử dụng jquery ajax get để lấy dữ liệu
+								$.get("http://localhost:5165/Products/AjaxSearch?key=" + key, function (data) {
+									//xóa các thẻ li
+									$("#smart-search ul").empty();
+									//thêm kết quả mới lấy được từ ajax
+									$("#smart-search ul").append(data);
+								});
+						}
+						else
+						{
+							document.getElementById("smart-search").setAttribute("style", "display:none;");
+						}
+					}
+				</script>
+			</div>
+		</div>
+	</div><!--/header-bottom-->
+</header><!--/header-->

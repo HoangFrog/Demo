@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutSub.cshtml";
+}
+@using project.Models
+<div class="container">
+@if(!String.IsNullOrEmpty(Context.Request.Query["notify"]))
+	{
+		if(Context.Request.Query["notify"] == "destroy-success")
+		{
+			<h2 style="text-align:center">Đã xóa toàn bộ sản phẩm trong giỏ hàng</h2>
+		}
+		if (Context.Request.Query["notify"] == "checkout-success")
+		{
+			<h2 style="text-align:center">Đã thanh toán giỏ hàng thành công</h2>
+		}
+	}
+@if(Model.Count > 0)
+{
+		<section id="cart_items">
+			<form method="post" action="/Cart/Update">
+				<div class="container">
+					<div class="breadcrumbs">
+						<ol class="breadcrumb">
+							<li><a href="#">Home</a></li>
+							<li class="active">Shopping Cart</li>
+						</ol>
+					</div>
+					<div class="table-responsive cart_info">
+						<table class="table table-condensed">
+							<thead>
+								<tr class="cart_menu">
+									<td class="image">Item</td>
+									<td class="description"></td>
+									<td class="price">Price</td>
+									<td class="quantity">Quantity</td>
+									<td class="total">Total</td>
+									<td></td>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (Item item_cart in Model)
+								{
+									<tr>
+										<td class="cart_product">
+											<a href=""><img style="width:80px;" src="~/Upload/Products/@item_cart.ProductRecord.Photo" alt=""></a>
+										</td>
+										<td class="cart_description">
+											<h4 style="font-size:18px !important"><a href="/Products/Detail/@item_cart.ProductRecord.Id">@item_cart.ProductRecord.Name</a></h4>
+
+										</td>
+										<td class="cart_price">
+											<p style="font-size:18px">$@(item_cart.ProductRecord.Price - (item_cart.ProductRecord.Price * item_cart.ProductRecord.Discount) / 100)</p>
+										</td>
+										<td class="cart_quantity">
+											<div class="cart_quantity_button">
+												@*<a class="cart_quantity_up" href=""> + </a>*@
+												<input class="cart_quantity_input" type="text" name="product_@item_cart.ProductRecord.Id" value="@item_cart.Quantity" autocomplete="off" size="2">
+												@*<a class="cart_quantity_down" href=""> - </a>*@
+											</div>
+										</td>
+										<td class="cart_total">
+											<p style="font-size:18px" class="cart_total_price">$@(item_cart.Quantity * (item_cart.ProductRecord.Price - (item_cart.ProductRecord.Price * item_cart.ProductRecord.Discount) / 100))</p>
+										</td>
+										<td class="cart_delete">
+											<a class="cart_quantity_delete" href="/Cart/Remove/@item_cart.ProductRecord.Id"><i class="fa fa-times"></i></a>
+										</td>
+									</tr>
+
+								}
+
+							</tbody>
+						</table>
+
+						<div class="summary" style="background-color: #fdfdfd;width: 100%;border: 1px solid #e6e6e6;padding: 25px 40px 21px 40px;display: table;margin-top: 20px;">
+							<div class="order-summary col-lg-4" style="width: 371px;padding-right: 75px;display: table-cell;vertical-align: middle;">
+								<h4 class="title-box" style="font-size: 14px;color: #333333;line-height: 20px;text-align: left;text-transform: uppercase;font-weight: 700;border-bottom: 1px solid #e6e6e6;margin-bottom: 18px;padding-bottom: 26px;margin-top: 0;">
+									Order Summary
+								</h4>
+								<p class="summary-info total-info " style="    border-top: 1px solid #e6e6e6;margin-top: 20px;padding-top: 17px;font-size: 15px;">
+									<span class="title">Total</span><b style="margin-left: 12px;font-size:14px;" class="index">$@Cart.CartTotal(Context.Session)</b>
+								</p>
+							</div>
+							<div class="checkout-info col-lg-4" style="width: 259px;padding-right: 10px;display: table-cell;vertical-align: middle;">
+								<a class="btn btn-checkout" href="/Cart/Checkout" style="width: 100%;border: 0;border-radius: 0;color: #ffffff;text-align: center;font-size: 14px;line-height: 20px;padding: 10px;margin-top: 12px;margin-bottom: 18px;background:#FE980F">Mua hàng</a>
+								<br>
+								<a class="link-to-shop" href="/Home" style="font-size: 14px;color: #333333;line-height: 20px;text-align: left;">Continue Shopping<i class="fa fa-arrow-circle-right" aria-hidden="true" style="margin-left: 12px;"></i></a>
+							</div>
+							<div class="update-clear col-lg-4" style="display: table-cell;vertical-align: middle;">
+								<a class="btn btn-clear" href="/Cart/Destroy" style="display: block;width: 100%;max-width: 249px;background-color: #f5f5f5;border-radius: 0;border: 1px solid #e6e6e6;color: #666666;font-size: 14px;line-height: 20px;font-weight: 600;text-transform: uppercase;padding: 9px;float: right;margin: 5px 0;">Clear Shopping Cart</a>
+								@*<a class="btn btn-update" href="#" onclick="document.getElementById('frm-cart').submit();">Update Shopping Cart</a>*@
+								<br>
+								<input type="submit" class="btn btn-update" value="Update Shopping Cart" style="display: block;width: 100%;max-width: 249px;background-color: #f5f5f5;border-radius: 0;border: 1px solid #e6e6e6;color: #666666;font-size: 14px;line-height: 20px;font-weight: 600;text-transform: uppercase;padding: 9px;float: right;margin: 5px 0;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</section> <!--/#cart_items-->
+	}
+else
+{
+	<h2 style="text-align:center">Chưa có sản phẩm trong giỏ hàng</h2>
+}
+</div>
+

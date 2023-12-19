@@ -1,0 +1,453 @@
+﻿@using project.Models
+@{
+	Layout = "~/Views/Shared/LayoutTrangChu.cshtml";
+}
+@functions {
+	public MyDbContext db = new MyDbContext();
+	// san pham giam gia -> Discount > 0 (table Products)
+	public List<ItemProduct> DisCountProducts()
+	{
+		List<ItemProduct> list_record = db.Products.Where(item => item.Discount > 0).Skip(0).Take(9).OrderByDescending(item => item.Id).ToList();
+		return list_record;
+	}
+	// san pham noi bat -> Hot = 1 (table Products)
+	public List<ItemProduct> HotProducts()
+	{
+		List<ItemProduct> list_record = db.Products.Where(item => item.Hot == 1).Skip(0).Take(3).OrderByDescending(item => item.Id).ToList();
+		return list_record;
+	}
+	// liet ke cac danh sach hien thi o trang chu -> DisplayHomePage = 1 (table Products)
+	public List<ItemCategory> Categories()
+	{
+		List<ItemCategory> list_record = db.Categories.Where(item => item.DisplayHomePage == 1).OrderByDescending(item => item.Id).ToList();
+		return list_record;
+	}
+	// Moi danh muc liet ke 9 san pham noi bat
+	public List<ItemProduct> Products(int _CategoryId)
+	{
+		List<ItemProduct> list_record = (from item_category in db.Categories join item_category_product in db.CategoriesProducts on item_category.Id equals item_category_product.CategoryId join item_product in db.Products on item_category_product.ProductId equals item_product.Id where item_category.Id == _CategoryId select item_product).Skip(0).Take(3).ToList();
+		// Skip(0).Take(9) => tu ban ghi dau tien (skip(0)) lay 9 ban ghi (take(9))
+		return list_record;
+	}
+	// tin tuc noi bat -> Hot = 1 (table Products)
+	public List<ItemNews> HotNews()
+	{
+		List<ItemNews> list_record = db.News.Where(item => item.Hot == 1).Skip(0).Take(9).OrderByDescending(item => item.Id).ToList();
+		return list_record;
+	}
+}
+@*<section id="slider">
+	<!--slider-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#slider-carousel" data-slide-to="1"></li>
+						<li data-target="#slider-carousel" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="col-sm-6">
+								<h1><span>E</span>-SHOPPER</h1>
+								<h2>Free E-Commerce Template</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<button type="button" class="btn btn-default get">Get it now</button>
+							</div>
+							<div class="col-sm-6">
+								<img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
+								<img src="images/home/pricing.png" class="pricing" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-sm-6">
+								<h1><span>E</span>-SHOPPER</h1>
+								<h2>100% Responsive Design</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<button type="button" class="btn btn-default get">Get it now</button>
+							</div>
+							<div class="col-sm-6">
+								<img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
+								<img src="images/home/pricing.png" class="pricing" alt="" />
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="col-sm-6">
+								<h1><span>E</span>-SHOPPER</h1>
+								<h2>Free Ecommerce Template</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<button type="button" class="btn btn-default get">Get it now</button>
+							</div>
+							<div class="col-sm-6">
+								<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
+								<img src="images/home/pricing.png" class="pricing" alt="" />
+							</div>
+						</div>
+
+					</div>
+
+					<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+						<i class="fa fa-angle-left"></i>
+					</a>
+					<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section><!--/slider-->*@
+
+
+	<div class="container">
+		<div class="row">
+			@*<div class="col-sm-3">
+				<div class="left-sidebar">
+					<h2>Category</h2>
+					<div class="panel-group category-products" id="accordian">
+						<!--category-productsr-->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+										<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Sportswear
+									</a>
+								</h4>
+							</div>
+							<div id="sportswear" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">Nike </a></li>
+										<li><a href="#">Under Armour </a></li>
+										<li><a href="#">Adidas </a></li>
+										<li><a href="#">Puma</a></li>
+										<li><a href="#">ASICS </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordian" href="#mens">
+										<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Mens
+									</a>
+								</h4>
+							</div>
+							<div id="mens" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">Fendi</a></li>
+										<li><a href="#">Guess</a></li>
+										<li><a href="#">Valentino</a></li>
+										<li><a href="#">Dior</a></li>
+										<li><a href="#">Versace</a></li>
+										<li><a href="#">Armani</a></li>
+										<li><a href="#">Prada</a></li>
+										<li><a href="#">Dolce and Gabbana</a></li>
+										<li><a href="#">Chanel</a></li>
+										<li><a href="#">Gucci</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordian" href="#womens">
+										<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Womens
+									</a>
+								</h4>
+							</div>
+							<div id="womens" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">Fendi</a></li>
+										<li><a href="#">Guess</a></li>
+										<li><a href="#">Valentino</a></li>
+										<li><a href="#">Dior</a></li>
+										<li><a href="#">Versace</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Kids</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Fashion</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Households</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Interiors</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Clothing</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Bags</a></h4>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title"><a href="#">Shoes</a></h4>
+							</div>
+						</div>
+					</div><!--/category-products-->
+
+					<div class="brands_products">
+						<!--brands_products-->
+						<h2>Brands</h2>
+						<div class="brands-name">
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#"> <span class="pull-right">(50)</span>Acne</a></li>
+								<li><a href="#"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
+								<li><a href="#"> <span class="pull-right">(27)</span>Albiro</a></li>
+								<li><a href="#"> <span class="pull-right">(32)</span>Ronhill</a></li>
+								<li><a href="#"> <span class="pull-right">(5)</span>Oddmolly</a></li>
+								<li><a href="#"> <span class="pull-right">(9)</span>Boudestijn</a></li>
+								<li><a href="#"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
+							</ul>
+						</div>
+					</div><!--/brands_products-->
+
+					<div class="price-range">
+						<!--price-range-->
+						<h2>Price Range</h2>
+						<div class="well text-center">
+							<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2"><br />
+							<b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+						</div>
+					</div><!--/price-range-->
+
+					<div class="shipping text-center">
+						<!--shipping-->
+						<img src="images/home/shipping.jpg" alt="" />
+					</div><!--/shipping-->
+
+				</div>
+			</div>*@
+
+			<div class="col-sm-9 padding-right">
+				<div class="features_items">
+					<!--Sản phẩm giảm giá-->
+					<h2 class="title text-center">Sale Items</h2>
+					@{
+						// San pham giam gia
+						var discount_products = DisCountProducts();
+					}
+					@foreach(var item in discount_products)
+					{
+						<div class="col-sm-4">
+								<div class="product-image-wrapper">
+									<div class="single-products">
+										<div class="productinfo text-center">
+											<a href="/Products/Detail/@item.Id">
+												<figure><img src="~/Upload/Products/@item.Photo" alt="@item.Name" /></figure>
+											</a>
+										<h2 style="font-size:18px" >$@item.Price</h2>
+										<span>Sale <span>@item.Discount%</span></span>
+											<br>
+										<div><a style="padding-top:10px;color:black" href="/Products/Detail/@item.Id"><span>@item.Name</span></a></div>
+										<a style="margin-top: 10px;color:black" href="/Cart/Buy/@item.Id" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+									<div class="choose">
+										<div class="product-price" style="text-align:center">
+											<a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+											<a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+											<a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+											<a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+											<a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+										</div>
+									</div>
+								</div>
+						</div>
+					}
+				</div><!--Sản phẩm giảm giá-->
+
+				<div class="category-tab">
+					<!--Category Products-->
+					<h2 class="title text-center">Category Products</h2>
+					@{
+						// lay cac danh muc hien thi o trang chu => DisplayHomePage =1 (Table Categories)
+						var list_categories = Categories();
+					}
+					@foreach(var itemCategory in list_categories)
+					{
+						<div class="col-sm-12">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="~/Products/Categories/@itemCategory.Id" data-toggle="tab">@itemCategory.Name</a></li>
+							</ul>
+						</div>
+
+
+						<div class="tab-content">
+							@{
+								//
+								var products = Products(itemCategory.Id);
+							}
+							@foreach (var item in products)
+							{
+								<div class="col-sm-4">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<a href="/Products/Detail/@item.Id">
+													<figure><img src="~/Upload/Products/@item.Photo" alt="@item.Name" /></figure>
+												</a>
+												<h2 style="font-size:18px">$@item.Price</h2>
+												<span>Sale <span>@item.Discount%</span></span>
+												<br>
+												<div><a style="padding-top:10px;color:black" href="/Products/Detail/@item.Id"><span>@item.Name</span></a></div>
+												<a style="margin-top: 10px;color:black" href="/Cart/Buy/@item.Id" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											</div>
+										</div>
+										<div class="choose">
+											<div class="product-price" style="text-align:center">
+												<a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												<a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												<a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												<a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												<a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							}
+						</div>
+					}
+
+				</div><!--/Category Products-->
+
+				<div class="recommended_items">
+					<!--Sản phẩm nổi bật-->
+					<h2 class="title text-center">recommended items</h2>
+
+					<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								@{
+									// San pham noi bat
+									var hot_products = HotProducts();
+								}
+								@foreach (var item in hot_products)
+								{
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<a href="/Products/Detail/@item.Id">
+														<figure><img src="~/Upload/Products/@item.Photo" alt="@item.Name" /></figure>
+													</a>
+													<h2 style="font-size:18px">$@item.Price</h2>
+													<span>Sale <span>@item.Discount%</span></span>
+													<br>
+													<div><a style="padding-top:10px;color:black" href="/Products/Detail/@item.Id"><span>@item.Name</span></a></div>
+													<a style="margin-top: 10px;color:black" href="/Cart/Buy/@item.Id" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+											<div class="choose">
+												<div class="product-price" style="text-align:center">
+													<a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								}
+							</div>
+							<div class="item">
+								@foreach (var item in hot_products)
+								{
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<a href="/Products/Detail/@item.Id">
+														<figure><img src="~/Upload/Products/@item.Photo" alt="@item.Name" /></figure>
+													</a>
+													<h2 style="font-size:18px">$@item.Price</h2>
+													<span>Sale <span>@item.Discount%</span></span>
+													<br>
+													<div><a style="padding-top:10px;color:black" href="/Products/Detail/@item.Id"><span>@item.Name</span></a></div>
+													<a style="margin-top: 10px;color:black" href="/Cart/Buy/@item.Id" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+											<div class="choose">
+												<div class="product-price" style="text-align:center">
+													<a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+													<a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								}
+							</div>
+						</div>
+						<a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+				</div>		
+				<!--Sản phẩm nổi bật-->
+
+				<div>
+					<h2 class="title text-center">News</h2>
+					@{
+						// Tin tuc
+						var hot_news = HotNews();
+					}
+					@foreach (var item in hot_news)
+					{
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<a href="/News/Detail/@item.Id">
+											<figure><img src="~/Upload/News/@item.Photo" /></figure>
+										</a>
+										<div style="font-weight:bold;margin-bottom:5px;height: 190px;overflow: hidden;">
+											<a href="/News/Detail/@item.Id">@item.Name</a>
+											<p>@Html.Raw(item.Description)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+

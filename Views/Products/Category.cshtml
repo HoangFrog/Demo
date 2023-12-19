@@ -1,0 +1,110 @@
+﻿@using project.Models
+@{
+	Layout = "~/Views/Shared/LayoutTrangTrong.cshtml";
+}
+<div class="col-sm-9 padding-right">
+	@*<div class="sort-item orderby " style="margin-bottom:32px;margin-left:660px;">
+		<select id="order" class="use-chosen" onchange="sort_order();">
+			<option value="">Default sorting</option>
+			<option value="name-asc">Sort by name a-z</option>
+			<option value="name-desc">Sort by name z-a</option>
+			<option value="price-asc">Sort by price: low to high</option>
+			<option value="price-desc">Sort by price: high to low</option>
+		</select>
+		<script language="javascript">
+			function sort_order() {
+				//lay value cua id=order
+				var get_value = document.getElementById("order").value;
+				//di chuyen den url
+			@if (ViewBag.CategoryId != null && ViewBag.Category == 0)
+			{
+				<text>location.href = "/Products/Category?order=" + get_value; </text>
+			}
+			else
+			{
+				<text>location.href = "/Products/Category/@ViewBag.CategoryId?order=" + get_value; </text>
+			}
+											}
+		</script>
+	</div>*@
+
+	<div class="wrap-shop-control" style="margin-bottom:32px;margin-left:660px;">
+		<div class="wrap-right">
+			<div class="sort-item orderby ">
+				<select id="orderby" onchange="location.href='/Products/Category/@ViewBag.CategoryId?order='+document.getElementById('orderby').value;" class="use-chosen">
+					<option value="">Default sorting</option>
+					<option @if (ViewBag.order == "name-asc")
+					{
+						<text>selected</text>
+					} value="name-asc">Sort by name a-z</option>
+					<option @if (ViewBag.order == "name-desc")
+					{
+						<text>selected</text>
+					} value="name-desc">Sort by name z-a</option>
+					<option @if (ViewBag.order == "price-asc")
+					{
+						<text>selected</text>
+					} value="price-asc">Sort by price: low to high</option>
+					<option @if (ViewBag.order == "price-desc")
+					{
+						<text>selected</text>
+					} value="price-desc">Sort by price: high to low</option>
+				</select>
+			</div>
+		</div>
+
+	</div><!--end wrap shop control-->
+
+	<div class="features_items" style="display:inline-block">
+		<!--features_items-->
+		<h2 class="title text-center">Products</h2>
+
+		<div class="row">
+			@foreach (var item in Model)
+			{
+				<div class="col-sm-4" style="height:496px;">
+					<div class="product-image-wrapper">
+						<div class="single-products">
+							<div class="productinfo text-center">
+								<a href="/Products/Detail/@item.Id">
+									<figure><img src="~/Upload/Products/@item.Photo" alt="@item.Name" /></figure>
+								</a>
+								<h2 style="font-size:18px">$@item.Price</h2>
+								<span>Sale <span>@item.Discount%</span></span>
+								<br>
+								<div><a style="padding-top:10px;color:black" href="/Products/Detail/@item.Id"><span>@item.Name</span></a></div>
+								<a style="margin-top: 10px;color:black" href="/Cart/Buy/@item.Id" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+							</div>
+						</div>
+						<div class="choose">
+							<div class="product-price" style="text-align:center">
+								<a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+								<a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+								<a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+								<a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+								<a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div><!--features_items-->
+	<div class="wrap-pagination-info">
+		@*phan trang cach 2*@
+		<ul class="page-numbers" style="display: flex;margin-bottom: 30px;margin-left: -37px;justify-content: flex-end;">
+			@* co the su dung ham phan trang co san (giong admin) hoac tu viet phan trang *@
+			@for (int i = 1; i <= Model.PageCount; i++)
+			{
+				string strSelected = "";
+				if (i == Model.PageNumber)
+				{
+					strSelected = "current";
+				}
+				<li>
+					<a style="background: #FE980F;color: white;padding: 10px 15px;margin-right: 10px;" class="page-number-item  @strSelected" href="/Products/Category?page=@i">@i</a>
+				</li>
+			}
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,62 @@
+﻿@{
+    //import file Layout.cshtml vao day
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+    //khoi tao cac bien
+    string Name = Model != null ? Model.Name : "";
+    string ControllerName = Model != null ? Model.ControllerName : "";
+    string Link = Model != null ? Model.Link : "";
+    string Arrange = Model != null ? Model.Arrange.ToString() : "0";
+}
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div style="background-color:#e91e63; line-height:40px;font-weight:bold;color:white;padding-left:10px;" class="panel-heading">Add edit user</div>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="text" value="@Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Controller</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="text" value="@ControllerName" name="ControllerName" class="form-control">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Action</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="text" value="@Link" name="Link" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+
+                @if (Model != null)
+                {
+                    <!-- rows -->
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-2">Arrange</div>
+                        <div class="col-md-10">
+                            <input type="number" value="@Arrange" name="Arrange" step="0.01" pattern="[0-9]+([.,][0-9]+)?" class="form-control" required>
+                        </div>
+                    </div>
+                    <!-- end rows -->
+                }
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

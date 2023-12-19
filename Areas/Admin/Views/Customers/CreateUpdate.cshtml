@@ -1,0 +1,81 @@
+﻿@{
+    //import file Layout.cshtml vào đây
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+    //khởi tạo các biến
+    string Name = Model != null ? Model.Name : "";
+    string Email = Model != null ? Model.Email : "";
+    string Address = Model != null ? Model.Address : "";
+    string Phone = Model != null ? Model.Phone : "";
+}
+
+<div class="col-md-12">
+    @{
+        var strNotify = Context.Request.Query["notify"].ToString();
+    }
+    @if (!String.IsNullOrEmpty(strNotify))
+    {
+        <div class="alert alert-warning" style="color:red; font-weight:bold;">Email đã tồn tại, mời chọn email khác</div>
+    }
+    <div class="panel panel-primary">
+        <div class="panel-heading" style="background-color:#e91e63; line-height:40px;font-weight:bold;color:white;padding-left:10px;">Add edit customer</div>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="text" value="@Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Email</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="email" value="@Email" name="Email" class="form-control">
+                    </div>
+                </div>
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Address</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="address" value="@Address" name="Address" class="form-control">
+                    </div>
+                </div>
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Phone</div>
+                    <div class="col-md-10">
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="phone" value="@Phone" name="Phone" class="form-control">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Password</div>
+                    <div class="col-md-10">
+                        @{
+                            string strCheck = "";
+                            if (!String.IsNullOrEmpty(Email))
+                            {
+                                strCheck = "placeholder = 'Không đổi password thì không nhập thông tin vào ô textbox này'";
+                            }
+                            else
+                            {
+                                strCheck = "required";
+                            }
+                        }
+                        <input style="border: 1px solid #aaa;width: 800px;height: 32px;" type="password" name="Password" @Html.Raw(strCheck) class="form-control">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

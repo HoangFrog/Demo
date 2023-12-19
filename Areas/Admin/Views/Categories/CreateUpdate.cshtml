@@ -1,0 +1,80 @@
+﻿@using project.Models
+@{
+    //import file Layout.cshtml vao day
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+    //khoi tao cac bien
+    //Chu y: do trong Controller truyen bien DataTable ra ngoai view, vi vay bien Model <=> bien DataTable
+    string Name = Model != null ? Model["Name"] : "";
+    int ParentId = Model != null ? Convert.ToInt32(Model["ParentId"]) : 0;
+    int DisplayHomePage = Model != null ? Convert.ToInt32(Model["DisplayHomePage"]) : 0;
+}
+@functions {
+    public MyDbContext db = new MyDbContext();
+    //lay cac danh muc cha
+    public List<ItemCategory> Categories(int _CurrentId)
+    {
+        List<ItemCategory> list_record = db.Categories.Where(item => item.ParentId == 0 && item.Id != _CurrentId).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+}
+<section class="content">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div style="background-color:#e91e63; line-height:40px;font-weight:bold;color:white;padding-left:10px;" class="panel-heading">Add edit category</div>
+            <div class="panel-body">
+                <form method="post" action="@ViewBag.action">
+                    <!-- rows -->
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-2">Name</div>
+                        <div class="col-md-10">
+                            <input style="border: 1px solid #aaa;width: 800px;height: 35px;" type="text" value="@Name" name="Name" class="form-control" required>
+                        </div>
+                    </div>
+                    <!-- end rows -->
+                    <!-- rows -->
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-2">Parent</div>
+                        <div class="col-md-10">
+                            @{
+                                int _CurrentId = Model != null ? Convert.ToInt32(Model["Id"]) : 0;
+                                List<ItemCategory> list_categories = Categories(_CurrentId);
+                            }
+                            <select name="ParentId" class="form-control" style="width:250px;border: 1px solid #aaa;width: 300px;height: 35px;">
+                                <option value="0"></option>
+                                @foreach (var item in list_categories)
+                                {
+                                    string strSelected = "";
+                                    if (Model != null && Convert.ToInt32(Model["ParentId"]) == item.Id)
+                                    {
+                                        strSelected = "selected";
+                                    }
+                                    <option @strSelected value="@item.Id">@item.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <!-- end rows -->
+                    <!-- rows -->
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <input type="checkbox" @if (Model != null && Convert.ToInt32(Model["DisplayHomePage"]) == 1)
+                            {
+                                <text>checked</text>
+                            } name="DisplayHomePage" id="DisplayHomePage"> <label for="DisplayHomePage">Hiển thị danh mục này ở trang chủ</label>
+                        </div>
+                    </div>
+                    <!-- end rows -->
+                    <!-- rows -->
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <input type="submit" value="Process" class="btn btn-primary">
+                        </div>
+                    </div>
+                    <!-- end rows -->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

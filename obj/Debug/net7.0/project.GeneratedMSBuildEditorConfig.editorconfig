@@ -1,0 +1,197 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = project
+build_property.RootNamespace = project
+build_property.ProjectDir = D:\Devpro_22\P2\project_Home\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Devpro_22\P2\project_Home
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Adv/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2XENyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Adv/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Categories/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Customers/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3VzdG9tZXJzXENyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Groups/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBzXENyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Groups/SetMenus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBzXFNldE1lbnVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Groups/SetUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBzXFNldFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Menus/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Menus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/News/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Orders/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Products/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Shared/Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Slides/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXENyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Slides/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Tags/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnc1xDcmVhdGVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Tags/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnc1xSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Users/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Account/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Account/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/News/NewsDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Products/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Products/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Products/SearchName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoTmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Products/SearchPrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoUHJpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Products/Tag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVGFnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Shared/LayoutSub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFN1Yi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Shared/LayoutTrangChu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFRyYW5nQ2h1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/Shared/LayoutTrangTrong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dFRyYW5nVHJvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Devpro_22/P2/project_Home/Views/WishList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaExpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

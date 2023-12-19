@@ -1,0 +1,2145 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\Admin\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\bg-pricing.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\bg-pricing.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\bg-smart-home-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\bg-smart-home-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\bg-smart-home-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\bg-smart-home-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\drake.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\drake.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\home-decor-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\home-decor-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\home-decor-3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\chat.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\danger-chat-ill.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\danger-chat-ill.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\dark-lock-ill.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\dark-lock-ill.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\illustration-lock.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\illustration-lock.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\illustration-reset.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\illustration-reset.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\illustration-signin.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\illustration-signin.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\illustration-signup.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\illustration-signup.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\illustration-verification.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\illustration-verification.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\lock.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\pattern-tree.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\pattern-tree.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\ivana-squares.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo-ct.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\marie.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\meeting.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\meeting.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\office-dark.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\office-dark.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\product-12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-1-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-1-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-2-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-2-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-3-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-3-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-4-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-4-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-5-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-5-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-6-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-6-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-7-min.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-7-min.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\bootstrap.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\bootstrap.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\creative-tim.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\creative-tim.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\devto.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\devto.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\github.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\github.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\google-webdev.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\google-webdev.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\icon-bulb.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\icon-bulb.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\team-5.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\tesla-model-s.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\tesla-model-s.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\img\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\vr-bg.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\Admin\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Admin\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Adv\\133432254236046946_b2s-1200-300-1200x300.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133432254236046946_b2s-1200-300-1200x300.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Adv\\133432254302230474_dmx-1-720x180-720x180.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133432254302230474_dmx-1-720x180-720x180.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Adv\\133432254361622985_1200x150-tgdd-1200x150-1.png",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133432254361622985_1200x150-tgdd-1200x150-1.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Adv\\133432254415614957_S23fe-720-220-720x220-8.webp",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133432254415614957_S23fe-720-220-720x220-8.webp"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Adv\\133432254469287933_SPDQ-720-220-720x220-2.webp",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133432254469287933_SPDQ-720-220-720x220-2.webp"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133399721386076560_2-megamenu_digital_electronics_1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133399721386076560_2-megamenu_digital_electronics_1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133399729306939014_author-avata.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133399729306939014_author-avata.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133399729469102157_banner-shop-full-width.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133399729469102157_banner-shop-full-width.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133407936333995650_3-slide-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133407936333995650_3-slide-banner-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133407936413211230_2-carpenter-tools-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133407936413211230_2-carpenter-tools-banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133408260503956499_digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133408260503956499_digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133408261219263567_blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133408261219263567_blog-article-1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133408261282314318_blog-article-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133408261282314318_blog-article-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133408261387104509_blog-article-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133408261387104509_blog-article-3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133408261443118449_blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133408261443118449_blog-article-4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133432253787566503_1-221023-215950-800-resize.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133432253787566503_1-221023-215950-800-resize.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133432253839555672_5_0-291023-111319-800-resize.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133432253839555672_5_0-291023-111319-800-resize.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133432253889642897_uu-dai-oppo-thumb-271023-191531-800-resize.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133432253889642897_uu-dai-oppo-thumb-271023-191531-800-resize.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\News\\133432253942300255_viettel5g2-301023-103024-800-resize.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133432253942300255_viettel5g2-301023-103024-800-resize.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133402160700295029_3-carpenter-tools-banner.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133402160700295029_3-carpenter-tools-banner.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935338676835_tools_equipment_8.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935338676835_tools_equipment_8.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935422147065_tools_equipment_7.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935422147065_tools_equipment_7.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935502115319_tools_equipment_6.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935502115319_tools_equipment_6.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935592165182_tools_equipment_5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935592165182_tools_equipment_5.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935713853311_organics_spa_8.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935713853311_organics_spa_8.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935783677380_fashion_09.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935783677380_fashion_09.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935852247308_fashion_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935852247308_fashion_02.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935926045231_fashion_07.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935926045231_fashion_07.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407935991960619_fashion_05.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407935991960619_fashion_05.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407936062043679_digital_18.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407936062043679_digital_18.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407936135817760_digital_20.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407936135817760_digital_20.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133407983521921077_fashion_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133407983521921077_fashion_01.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133423481050081422_digital_12.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133423481050081422_digital_12.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133427069979971787_2-kindtoy-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133427069979971787_2-kindtoy-banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133428832009738933_fashion_10.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428832009738933_fashion_10.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799492422491_digital_21.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799492422491_digital_21.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799558002071_fashion_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799558002071_fashion_02.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799619329943_fashion_08.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799619329943_fashion_08.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799673845090_furniture_03.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799673845090_furniture_03.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799735882115_digital_16.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799735882115_digital_16.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799800446434_tools_equipment_1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799800446434_tools_equipment_1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799873659607_digital_21.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799873659607_digital_21.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430799937133277_tools_equipment_3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430799937133277_tools_equipment_3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430800012998638_organics_spa_6.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430800012998638_organics_spa_6.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430800077994343_organics_spa_4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430800077994343_organics_spa_4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430800138454379_tools_equipment_4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430800138454379_tools_equipment_4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133430800205998914_fashion_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133430800205998914_fashion_01.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432170730876088_xiaomi-watch-2-pro-tb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432170730876088_xiaomi-watch-2-pro-tb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432170795638828_redmi-watch-3-den-tn-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432170795638828_redmi-watch-3-den-tn-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432170912432674_samsung-galaxy-watch6-classic-lte-43-mm-den-ksp-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432170912432674_samsung-galaxy-watch6-classic-lte-43-mm-den-ksp-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432170988075827_samsung-galaxy-watch6-classic-47-mm-bac-ksp-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432170988075827_samsung-galaxy-watch6-classic-47-mm-bac-ksp-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171085436916_apple-watch-s8-41mm-do-thumb-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171085436916_apple-watch-s8-41mm-do-thumb-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171155602028_apple-watch-se-2022-thumbnew-1-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171155602028_apple-watch-se-2022-thumbnew-1-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171224030479_apple-watch-ultra-lte-49mm-vien-titanium-day-trail-size-s-m-den-thumb-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171224030479_apple-watch-ultra-lte-49mm-vien-titanium-day-trail-size-s-m-den-thumb-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171340499547_lenovo-tab-m8-xanh-thumb-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171340499547_lenovo-tab-m8-xanh-thumb-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171404145129_lenovo-tab-m10-gen-3-1-2-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171404145129_lenovo-tab-m10-gen-3-1-2-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171518981933_galaxy-tab-s9-fe-xanh-mint-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171518981933_galaxy-tab-s9-fe-xanh-mint-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171664705755_samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171664705755_samsung-galaxy-tab-a7-lite-gray-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171836538203_iPad-9-wifi-trang-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171836538203_iPad-9-wifi-trang-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432171918718305_ipad-pro-m2-11-inch-wifi-5g-xam-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432171918718305_ipad-pro-m2-11-inch-wifi-5g-xam-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432251564455179_iPad-9-wifi-trang-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432251564455179_iPad-9-wifi-trang-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432251660326130_ipad-air-5-wifi-grey-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432251660326130_ipad-air-5-wifi-grey-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432251948079254_dell-inspiron-15-3520-i7-71003262-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432251948079254_dell-inspiron-15-3520-i7-71003262-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252031971658_dell-inspiron-15-3530-i5-71014840-180923-082008-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252031971658_dell-inspiron-15-3530-i5-71014840-180923-082008-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252247409806_dell-inspiron-15-3530-i7-n3530i716w1-thumb-2-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252247409806_dell-inspiron-15-3530-i7-n3530i716w1-thumb-2-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252385201687_lenovo-ideapad-3-15iau7-i3-82rk005lvn-281122-051953-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252385201687_lenovo-ideapad-3-15iau7-i3-82rk005lvn-281122-051953-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252464035372_lenovo-ideapad-3-15itl6-i3-82h803sgvn-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252464035372_lenovo-ideapad-3-15itl6-i3-82h803sgvn-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252557091094_asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252557091094_asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252679330681_asus-vivobook-16-x1605va-i5-mb360w-thumb-laptop-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252679330681_asus-vivobook-16-x1605va-i5-mb360w-thumb-laptop-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252819602832_ip15.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252819602832_ip15.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252898683971_iphone-11-trang-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252898683971_iphone-11-trang-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432252977829485_iphone-12-tim-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432252977829485_iphone-12-tim-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253048919957_iphone-14-pro-max-tim-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253048919957_iphone-14-pro-max-tim-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253153031668_iphone-13-pink-2-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253153031668_iphone-13-pink-2-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253229669313_iphone-14-pro-max-tim-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253229669313_iphone-14-pro-max-tim-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253332092132_samsung-galaxy-s23-ultra-thumb-xanh-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253332092132_samsung-galaxy-s23-ultra-thumb-xanh-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253398908067_samsung-galaxy-z-fold5- kem-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253398908067_samsung-galaxy-z-fold5- kem-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253504286892_samsung-galaxy-s23-fe-xanh-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253504286892_samsung-galaxy-s23-fe-xanh-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253607174464_oppo-reno10-pro-plus-thumbnew-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253607174464_oppo-reno10-pro-plus-thumbnew-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133432253690764820_oppo-find-n3-vang-dong-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133432253690764820_oppo-find-n3-vang-dong-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133447959342105457_iPad-9-wifi-trang-600x600.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133447959342105457_iPad-9-wifi-trang-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Products\\133451310397313311_dell-vostro-15-3520-i3-5m2tt1-090823-041032-600x600.png",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133451310397313311_dell-vostro-15-3520-i3-5m2tt1-090823-041032-600x600.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Slides\\133432254651172293_638340482188942617_F-H1_800x300.webp",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133432254651172293_638340482188942617_F-H1_800x300.webp"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Slides\\133432254715793493_Banner-big-min-1920x450.webp",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133432254715793493_Banner-big-min-1920x450.webp"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\Upload\\Slides\\133432254769733909_sliding-iphone15-moban-full--ver2.webp",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133432254769733909_sliding-iphone15-moban-full--ver2.webp"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\README.md"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.d.ts"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.js.map"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\index.html"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\sample\\img\\bg.png",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\bg.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\sample\\img\\github.svg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\github.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\sample\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\logo.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\af.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ar.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ast.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\az.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bg.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bn.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bs.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ca.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\cs.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\da.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\de.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\el.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\en-au.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\eo.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\es-co.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\es.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\et.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\eu.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fa.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fi.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fr.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\gl.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\gu.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\he.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hi.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hr.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hu.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\hy.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hy.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\id.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\it.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ja.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\jv.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\km.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\kn.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ko.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ku.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\lt.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\lv.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ms.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\nb.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ne.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\nl.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\no.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\oc.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pl.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pt.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ro.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ru.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\si.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sk.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sl.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sq.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sr.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sv.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\th.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tk.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tr.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tt.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ug.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\uk.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ur.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\uz.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\vi.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\ckeditor5-build-classic\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\zh.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\images\\404\\404.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\images\\cart\\one.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\images\\cart\\three.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\images\\cart\\two.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\logo.png",
+      "PackagePath": "staticwebassets\\images\\home\\logo.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\images\\home\\map.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\images\\home\\new.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\images\\home\\sale.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Devpro_22\\P2\\project_Home\\wwwroot\\sendemail.php",
+      "PackagePath": "staticwebassets\\sendemail.php"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.project.props",
+      "PackagePath": "build\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.project.props",
+      "PackagePath": "buildMultiTargeting\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.project.props",
+      "PackagePath": "buildTransitive\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,180 @@
+﻿@* nhận diện các file trong thư mục Models*@
+@using project.Models
+@using X.PagedList.Mvc.Core
+@*Khai báo kiểu dữ liệu của Model (có cũng được không có cũng được)*@
+@model X.PagedList.IPagedList<ItemCategory>
+@*Đối tượng để gọi hàm hiện thị phân trang*@
+@using X.PagedList.Mvc
+
+@{
+    //import file layout.cshtml vào đây
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@functions {
+    public MyDbContext db = new MyDbContext();
+    // lấy các danh mục con tương ứng với danh mục cha
+    public List<ItemCategory> SubCategories(int _CategoryId)
+    {
+        List<ItemCategory> list_record = db.Categories.Where(item => item.ParentId == _CategoryId).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+}
+
+<section class="content">
+    <div class="col-md-12">
+        <div style="margin-bottom:5px;">
+            <a  href="/Admin/Categories/Create" class="btn btn-primary">Create</a>
+        </div>
+        <div class="panel panel-primary">
+            <div style="background-color:#e91e63; line-height:40px;font-weight:bold;color:white;padding-left:10px;" class="panel-heading">List Category</div>
+            <div class="panel-body">
+                <table class="table table-bordered table-hover">
+                    <tr>
+                        <th>Name</th>
+                        <th style="width:150px;">Display Home Page</th>
+                        <th style="width:120px;"></th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td style="text-align:center">
+                                @if (item.DisplayHomePage == 1)
+                                {
+                                    <text><span class="fa fa-check"></span></text>
+                                }
+                            </td>
+                            <td style="text-align:center;">
+                                <a href="/Admin/Categories/Update/@item.Id">Update</a>&nbsp;
+                                <a href="/Admin/Categories/Delete/@item.Id" onclick="return window.confirm('Are you sure?');">Delete</a>
+                            </td>
+                        </tr>
+                        // lay cac danh mục con thuocj danh mucj cha
+                        List<ItemCategory> list_sub_categories = SubCategories(item.Id);
+                        foreach (var subItem in list_sub_categories)
+                        {
+                            <tr>
+                                <td style="padding-left:40px;">@subItem.Name</td>
+                                <td style="text-align:center">
+                                    @if (subItem.DisplayHomePage == 1)
+                                    {
+                                        <text><span class="fa fa-check"></span></text>
+                                    }
+                                </td>
+                                <td style="text-align:center;">
+                                    <a href="/Admin/Categories/Update/@subItem.Id">Update</a>&nbsp;
+                                    <a href="/Admin/Categories/Delete/@subItem.Id" onclick="return window.confirm('Are you sure?');">Delete</a>
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                </table>
+                <style type="text/css">
+                    .pagination {
+                        padding: 0px;
+                        margin: 0px;
+                    }
+                </style>
+                @*phan trang bang tay*@
+                @*So trang : @Model.PageCount /
+                Trang Hien tai : @Model.PageNumber*@
+                @*Phan trang bang ham PagedListPager*@
+                @Html.PagedListPager(Model,page => Url.Action("Index",new {page} ))
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
+
+    .pagination > li {
+       display: inline
+    }
+
+    .pagination > li > a, .pagination > li > span {
+       position: relative;
+       float: left;
+       padding: 6px 12px;
+       margin-left: -1px;
+       line-height: 1.42857143;
+       color: #337ab7;
+       text-decoration: none;
+       background-color: #fff;
+       border: 1px solid #ddd
+    }
+
+    .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+       z-index: 2;
+       color: #23527c;
+       background-color: #eee;
+       border-color: #ddd
+    }
+
+    .pagination > li:first-child > a, .pagination > li:first-child > span {
+       margin-left: 0;
+       border-top-left-radius: 4px;
+       border-bottom-left-radius: 4px
+    }
+
+    .pagination > li:last-child > a, .pagination > li:last-child > span {
+       border-top-right-radius: 4px;
+       border-bottom-right-radius: 4px
+    }
+
+    .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+       z-index: 3;
+       color: #fff;
+       cursor: default;
+       background-color: #e91e63;
+       
+    }
+
+    .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+       color: #777;
+       cursor: not-allowed;
+       background-color: #fff;
+       border-color: #ddd
+    }
+
+    .pagination-lg > li > a, .pagination-lg > li > span {
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333
+    }
+
+    .pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px
+    }
+
+    .pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px
+    }
+
+    .pagination-sm > li > a, .pagination-sm > li > span {
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5
+    }
+
+    .pagination-sm > li:first-child > a, .pagination-sm > li:first-child > span {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px
+    }
+
+    .pagination-sm > li:last-child > a, .pagination-sm > li:last-child > span {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px
+    }
+
+
+</style>

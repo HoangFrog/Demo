@@ -1,0 +1,49 @@
+﻿@{
+    //import file Layout.cshtml vao day
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@using project.Models
+@functions {
+    public MyDbContext db = new MyDbContext();
+    public bool CheckPermission(int _UserId, int _GroupId)
+    {
+        ItemUserGroup record = db.UsersGroups.Where(item => item.UserId == _UserId && item.GroupId == _GroupId).FirstOrDefault();
+        if (record != null)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+<div class="col-md-12">
+    <form method="post" action="/Admin/Groups/SetUsersPost/@ViewBag.GroupId">
+        <div class="panel panel-primary">
+            <div class="panel-heading">List User</div>
+            <div class="panel-body">
+                <table class="table table-bordered table-hover">
+                    <tr>
+                        <th style="width:5px;"></th>
+                        <th>Fullname</th>
+                        <th>Email</th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        string strChecked = "";
+                        if (CheckPermission(item.Id, Convert.ToInt32(ViewBag.GroupId)))
+                        {
+                            strChecked = "checked";
+                        }
+                        <tr>
+                            <td><input type="checkbox" @strChecked name="User" id="User_@item.Id" value="@item.Id" /></td>
+                            <td><label for="User_@item.Id" style="font-weight:normal;">@item.Name</label></td>
+                            <td>@item.Email</td>
+                        </tr>
+                    }
+                </table>
+                <div style="margin-bottom:5px;">
+                    <input type="submit" class="btn btn-primary" value="Set menus" />
+                </div>
+            </div>            
+        </div>
+    </form>
+</div>
